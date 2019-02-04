@@ -1,6 +1,13 @@
-# David's Data Double
+DAVID AZAR
+QUANT HUMANISTS
+SPRING 2019 
+04 02 2019
 
-## Week 1 Asignment 1
+## Assignment `#1`: David's Data Double 
+
+
+ 
+Reflections on the data gathered over the week
 
 
 ### Information retreival. 

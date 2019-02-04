@@ -51,8 +51,10 @@ Im more of a consumer than a creator of content and this data sump really shows 
 I use Google's services the most.
 
 * YouTube
+
 Only 2 comments in my +10 years of using the platform
 
 * Maps
+
 Most files are in JSON. Will deffinetly look deeper into them
 

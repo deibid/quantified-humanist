@@ -1,9 +1,9 @@
-DAVID AZAR
+DAVID AZAR | davidazar.mx
 QUANT HUMANISTS
 SPRING 2019 
 04 02 2019
 
-## Assignment `#1`: David's Data Double 
+## Assignment `#1.1`: David's Data Double 
 
 
  

@@ -1,7 +1,7 @@
-DAVID AZAR | davidazar.mx
-QUANT HUMANISTS
-SPRING 2019 
-04 02 2019
+DAVID AZAR | davidazar.mx <br>
+QUANT HUMANISTS <br>
+SPRING 2019 <br>
+04 02 2019<br>
 
 ## Assignment `#1.2`: Self Tracking Projects Review
 

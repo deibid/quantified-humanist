@@ -34,11 +34,11 @@ Paring this with an app that allowed me to change the habit I'm tracking and hav
 ### Muse
 
 Headband for tracking brainwaves during your meditation practice.
-Muse intends to uncover some of the hidden processes and phisiological benefits obtained by meditation.
+Muse intends to uncover some of the hidden processes and physiological benefits obtained by meditation.
 
-It's a beautifuly designed product in my opinion. The headband is accompanied by an app that gives you diverse meditation excercises and connects you to a like-minded community.
+It's a beautifully designed product in my opinion. The headband is accompanied by an app that gives you diverse meditation exercises and connects you to a like-minded community.
 
-I like this product a lot because it succesfully uncovers many misteries about the activity in our brains, and is provides a strong step forwards into a more healthy self.
+I like this product a lot because it successfully uncovers many mysteries about the activity in our brains, and is provides a strong step forwards into a more healthy self.
 
 ![Muse](https://choosemuse.com/app/uploads/2018/11/092818-MUSe-170-1.jpg)
 

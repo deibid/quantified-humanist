@@ -10,7 +10,7 @@ SPRING 2019 <br>
 Reflections on the data gathered over the week
 
 
-### Information retreival. 
+### Information retrieval. 
 
 I gathered my personal from the following services and companies:
 
@@ -31,7 +31,7 @@ I gathered my personal from the following services and companies:
 
 
 Requested my data in both HTMl and JSON format. HTML will let me to visualize it faster with the pre-made Facebook format and
-will allow me to do further analize it and visualize it in new ways.
+will allow me to do further analyze it and visualize it in new ways.
 
 I'm honestly impressed with the thoroughness of the data. Facebook is the first social platform I ever joined. I don't really use it anymore
 but it's interesting to see how far back some of my likes, comments and chats go.
@@ -45,7 +45,7 @@ I switched schools on 8th grade and the search history reflects that. Pretty ama
 
 #### WhatsApp (188 KB)
 
-WhatsApp is my main messaging platform. I use it all the time and have been using it for almost 10 years. The data is a bit dissapointing,
+WhatsApp is my main messaging platform. I use it all the time and have been using it for almost 10 years. The data is a bit disappointing,
 it show only my app settings, my profile picture, the groups I'm a part of and my device information.
 
 #### Instagram (8.1 MB)
@@ -63,5 +63,5 @@ Only 2 comments in my +10 years of using the platform
 
 * Maps
 
-Most files are in JSON. Will deffinetly look deeper into them
+Most files are in JSON. Will definitely look deeper into them
 

@@ -115,8 +115,8 @@ I usually use Keynote to draft UI ideas. I've always wanted to learn industry st
 I will not focus on making the most beautiful interface ever created, but rather a functional one that hopefully does not look bad.
 
 ![UI draft in Sketch](login-view.png)
-![UI draft in Sketch](/brief_assets/vis-view.png)
-![UI draft in Sketch](/brief_assets/admin-view.png)
+![UI draft in Sketch](vis-view.png)
+![UI draft in Sketch](admin-view.png)
 
 
 I am very limited in what I can accomplish using Sketch. However, I feel like this interface gets the point across.
@@ -127,14 +127,14 @@ I spent about an hour doing the UI. I didn't want to spend more on it because th
 
 The visualization blocks will look something like this:
 
-![handmade visualization template](/brief_assets/hand-vis.jpg)
+![handmade visualization template](hand-vis.jpg)
 
 
 
 
 Some experimentation in Sketch:
 
-![vis in Sketch](/brief_assets/data-block.png)
+![vis in Sketch](data-block.png)
 
 
 I have the overall design in place, so let's start with the code.
@@ -148,7 +148,7 @@ I need to first dive in Joey's sample code and in parallel do the step-by-step g
 
 Fired up the tutorial, installed every dependency and initialized the feather.js app.
 
-![Running app](/brief_assets/joey-app-1.png)
+![Running app](joey-app-1.png)
 
 We're in.
 
@@ -176,7 +176,7 @@ Let's keep going.
 **Schema declaration**
 
 
-![Schema declaration](/brief_assets/schema.png)
+![Schema declaration](schema.png)
 
 
 **Curl tests**
@@ -237,9 +237,9 @@ I continued with the guide and didn't have any issues other than this.
 
 I feel extremely happy with the end result. My first Heroku deployment for my first full-stack app. How cools is that?
 
-![deployed app](/brief_assets/app-login.png)
-![deployed app](/brief_assets/app-vis.png)
-![deployed app](/brief_assets/app-admin.png)
+![deployed app](app-login.png)
+![deployed app](app-vis.png)
+![deployed app](app-admin.png)
 
 
 

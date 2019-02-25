@@ -1,4 +1,5 @@
 {
-  "host": "itp-productivity-tracker-app.feathersjs.com",
-  "port": "PORT"
+  "host": "https://itp-productivity-tracker.herokuapp.com/",
+  "port": "PORT",
+  "mongodb": "MONGODB_URI"
 }

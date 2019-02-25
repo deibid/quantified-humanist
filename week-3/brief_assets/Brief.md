@@ -114,7 +114,7 @@ I usually use Keynote to draft UI ideas. I've always wanted to learn industry st
 
 I will not focus on making the most beautiful interface ever created, but rather a functional one that hopefully does not look bad.
 
-![UI draft in Sketch](/brief_assets/login-view.png)
+![UI draft in Sketch](login-view.png)
 ![UI draft in Sketch](/brief_assets/vis-view.png)
 ![UI draft in Sketch](/brief_assets/admin-view.png)
 

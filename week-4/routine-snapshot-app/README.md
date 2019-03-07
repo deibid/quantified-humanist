@@ -7,6 +7,8 @@ SPRING 2019 <br>
  
 This simple fullstack application allows me to keep track of my daily goals by allowing me to record a snapshot of my day.
 
+![gif of the app working](./assets/morning-tracker.gif)
+
 ## Concept
 
 If you think about it, a daily data snapshot can be a great tool for self accountability.
@@ -123,7 +125,7 @@ Once the foundation pieces were in the project directory, I built the backend st
 1. Get the entires
 2. Submit a new entry
 
-![backend file](/.assets/backend-1.png)
+![backend file](./assets/backend-1.png)
 
 
 

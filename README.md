@@ -1,5 +1,5 @@
 # The Quantified Humanist
-Repository containing everything related for the Quantified Self.
+Repository containing everything related to the Quantified Self.
 
 * Week 1 - My Data Double [Here](https://github.com/deibid/quantified-humanist/tree/master/week-1)
 * Week 2 - Dear Data [Here](https://github.com/deibid/quantified-humanist/blob/master/week-2/Visualization%20of%20one%20week.md)

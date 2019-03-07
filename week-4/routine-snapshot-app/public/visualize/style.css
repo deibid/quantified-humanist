@@ -1,0 +1,156 @@
+*{
+    font-family: 'Lato', sans-serif;
+    color:#272727;
+}
+
+
+html{
+    height:100%;
+}
+body{
+    
+
+    margin: 0;
+    height: 100%;
+    background-color: lightslategray;
+    overflow-y: hidden;
+}
+
+h1{
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 300;
+}
+
+h2{
+    margin-top: 4px;
+    font-weight: 300;
+}
+
+h3{
+    display: inline-block;
+    float: right;
+    font-weight: 300;
+}
+
+header{
+    padding: 24px 40px;
+    background: white;
+}
+
+
+
+#app{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+}
+#viz-grid{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    overflow-x: scroll;
+    vertical-align: auto;
+}
+
+
+.data-block{
+    height: 216px;
+    width: 496px;
+    background: #ffffff;
+    border: 1px solid #272727;
+    display: flex;
+    margin: 8px 12px 12px 12px;
+    
+}
+
+
+.data-image-container{
+    
+    height: 100%;
+    width: 220px;
+    flex-grow: 1;
+    background: rgb(124, 166, 207);
+    
+    
+}
+
+
+.data-information-container{
+    height: 100%;
+    width: 268px;
+    padding: 8px 8px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 67px 67px 67px 67px;
+    grid-template-rows: 48px auto auto auto;   
+}
+
+.data-information-container > *{
+    margin:  0;
+    
+}
+#data-temp{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    font-size: 1.5em;
+}
+
+#data-points{
+
+    grid-column-start: 3;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: span 4;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+#data-city{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+#data-date{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#data-time{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+.data-habit-container{
+    display: flex;
+    justify-content: space-evenly;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    font-size: 1.4em;
+}
+
+.data-block-bottom{
+    margin-top: 280px;
+}
+
+
+.habit-missed{
+    opacity: 0.2;
+}
+
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="moment.js"></script>
+    <script src="index.js"></script>
+    <title>Routine Tracker</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Morning Routine Tracker</h1>
+        <h3> <a href='../index.html'>Viz</a></h3>
+        <h2>This is how you are doing</h2>
+    </header>
+
+
+
+    <main>
+
+        <div class='flex-row'>
+
+            <div class="flex-column">
+
+                <div id="mySketch"></div>
+                <button id="captureButton">Capture and Submit</button>
+
+            </div>
+
+            <div class="flex-column">
+                <form id="myForm">
+
+                    <div class="form-group">
+                        <p>Date: </p>
+                        <p id="form-date"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Time: </p>
+                        <p id="form-time"> </p>
+                    </div>
+
+                    <div class="form-group">
+                        <p>City: </p>
+                        <p id="form-city"> Loading..</p>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Weather: </p>
+                        <p id="form-weather"></p>
+                    </div>
+
+                    <div id="separator"></div>
+
+                    <div class="form-group">
+                        <p>Wake up in time? (W) </p>
+                        <input type="checkbox" name="wakeup" id="input-wakeup">
+                    </div>
+
+                    <div class="form-group">
+                        <p>Meditated? (M) </p>
+                        <input type="checkbox" name="meditate" id="input-meditate">
+                    </div>
+
+                    <div class="form-group">
+                        <p>Worked out? (K) </p>
+                        <input type="checkbox" name="workout" id="input-workout">
+                    </div>
+
+                    <div class="form-group">
+                        <p>Cooked breakfast? (B) </p>
+                        <input type="checkbox" name="breakfast" id="input-breakfast">
+                    </div>
+
+                    <div class="form-group">
+                        <p>Didn't rush? (R) </p>
+                        <input type="checkbox" name="dont-rush" id="input-dontRush">
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+
+
+    <!-- p5 libraries -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/p5.geolocation@1.0.1/p5.geolocation.min.js"></script>
+    <!-- your p5 sketch -->
+
+</body>
+
+</html>

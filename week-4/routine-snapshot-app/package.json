@@ -1,0 +1,21 @@
+{
+  "name": "routine-snapshot-app",
+  "version": "1.0.0",
+  "description": "App to track morning habits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "davidazar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "nedb": "^1.8.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

@@ -1,0 +1,104 @@
+*{
+    font-family: 'Lato', sans-serif;
+    color:#272727;
+}
+
+
+html{
+    height:100%;
+}
+body{
+    padding: 24px 40px;
+    height: 100%;
+}
+
+h1{
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 300;
+}
+
+h2{
+    margin-top: 4px;
+    font-weight: 300;
+}
+
+h3{
+    display: inline-block;
+    float: right;
+    font-weight: 300;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 16px;
+}
+
+
+
+#mySketch{
+
+    width: 350px;
+    height: 300px;
+    background: #272727;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 8px;
+    justify-content: space-between;
+
+}
+
+.form-group > p{
+    margin: 0px;
+
+    /* width: auto; */
+}
+
+.form-group > input[type=checkbox]{
+    margin-left: 24px;
+    align-self: end;
+    
+}
+
+
+#separator{
+    background: #272727;
+    height: 1px;
+    width: 100%;
+    margin: 16px 0px;
+}
+
+
+button{
+    background-color: #A07979;
+    height: 60px;
+    margin-top: 4px;
+    font-size: 1.3em;
+    color:#272727;
+    font-weight: 200;
+}
+
+#mySketch{
+    height:200px;
+    width: 200px;
+}

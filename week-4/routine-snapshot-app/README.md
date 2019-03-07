@@ -92,10 +92,10 @@ For action #2 (log), the relevant elements are:
 Taking the data and interaction into account, I designed a simple UI in sketch.
 
 Viz view
-![Viz view](assets/ui-1.png)
+![Viz view](./assets/ui-1.png)
 
 Log view
-![Viz view](assets/ui-2.png)
+![Viz view](./assets/ui-2.png)
 
 
 After a simple UI was designed, it was time to start with the development.
@@ -123,7 +123,7 @@ Once the foundation pieces were in the project directory, I built the backend st
 1. Get the entires
 2. Submit a new entry
 
-![backend file](/assets/backend-1.png)
+![backend file](/.assets/backend-1.png)
 
 
 
@@ -135,7 +135,7 @@ There are two screens and the data blocks for every entry.
 
 I'll lay the html for the viz view first:
 
-![frontend file](/assets/frontend-1.png)
+![frontend file](./assets/frontend-1.png)
 
 Once that I can see the overall structure and position of the app, Its time to code the data block view.
 
@@ -146,7 +146,7 @@ After hours of trying to get it to work using flex-box and floats, I realized th
 
 Tinkered for a while with the CSS and got to this point.
 
-![data block view](/assets/frontend-2.png)
+![data block view](./assets/frontend-2.png)
 
 
 I can simulate the data thanks to NeDB to test the Viz view, and that is exactly what I'll do next.
@@ -157,7 +157,7 @@ I can simulate the data thanks to NeDB to test the Viz view, and that is exactly
 I defined a few sample data blocks in the data as in-memory objects in the index.js express server file, and tested that performing a GET to my desired endpoint returned it.
 
 
-![simulated data](/assets/backend-2.png)
+![simulated data](./assets/backend-2.png)
 
 
 Moved all html declarations into a new Views.js class and created an index.js frontend file but after finding that the new example app actually splits the views into different files, I refactored my code into that same way.
@@ -203,7 +203,7 @@ The data blocks are very abstract. I know that it is not obvious at a first glan
 I spent way too much time on it, but I wanted to learn how to make a simple fullstack app from scratch and I actually did.
 
 
-![gif of the app working](/assets/morning-tracker.gif)
+![gif of the app working](./assets/morning-tracker.gif)
 
 
 

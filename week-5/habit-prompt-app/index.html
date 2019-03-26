@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <h1>Process Logger</h1>
+    <p>Select a time to be reminded everyday to log your information</p>
+
+
+    <section>
+        <div class='time-row'>
+            <h3>Hour (0-23)</h3>
+            <input type="number" min="0" max="23" value="9" id="hour">
+        </div>
+        <div class='time-row'>
+            <h3>Minute (0-59)</h3>
+            <input type="number" min="0" max="59" value="0" id="minute">
+        </div>
+
+        <div class='time-row'>
+            <h3>URL to open</h3>
+            <input type="url" placeholder="https://www.google.com" id="url">
+        </div>
+
+    </section>
+
+
+
+    <div class="center-column">
+        <button id="save-button">
+            Save
+        </button>
+    </div>
+
+
+
+    <script>
+
+        let { ipcRenderer } = require('electron');
+
+
+        document.getElementById("save-button").addEventListener('click', (e) => {
+            console.log("click");
+            let hour = document.getElementById("hour").value;
+            let minute = document.getElementById("minute").value;
+            let url = document.getElementById("url").value;
+
+
+            let options = {
+                "hour": hour,
+                "minute": minute,
+                "url": url
+            };
+
+            ipcRenderer.send("sendValuesToMain", options);
+
+
+
+        });
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
